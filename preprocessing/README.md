@@ -15,7 +15,7 @@ First, you need to generate training data for the tokenizer. You can use the fol
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/preprocessing/src/training/
+cd /path/to/chat-cve/preprocessing/src/training/
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -43,7 +43,7 @@ Second, you need to train a tokenizer for each target language and source model.
 #SBATCH --time=96:00:00
 
 # Configs
-cd /path/to/cva-merge/preprocessing/src/training/
+cd /path/to/chat-cve/preprocessing/src/training/
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -79,7 +79,7 @@ python train_tokenizer.py \
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/preprocessing/src/training/
+cd /path/to/chat-cve/preprocessing/src/training/
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -117,7 +117,7 @@ Third, you need to tokenize the dataset for each target language and source mode
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/preprocessing/src/training/
+cd /path/to/chat-cve/preprocessing/src/training/
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -150,7 +150,7 @@ python generate_lapt_data_madlad.py \
 #SBATCH --time=96:00:00
 
 # Configs
-cd /path/to/cva-merge/preprocessing/src/training/
+cd /path/to/chat-cve/preprocessing/src/training/
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"

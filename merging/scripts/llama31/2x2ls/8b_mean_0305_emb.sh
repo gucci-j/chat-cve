@@ -4,7 +4,7 @@
 #SBATCH --time=24:00:00
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="Llama-3.1-8B"
 lang_codes=(

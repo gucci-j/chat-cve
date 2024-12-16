@@ -5,7 +5,7 @@
 
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="Qwen2.5-7B"
 lang_codes=(

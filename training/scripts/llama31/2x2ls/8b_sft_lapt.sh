@@ -6,7 +6,7 @@
 
 
 # Configs
-cd /path/to/cva-merge/training/src
+cd /path/to/chat-cve/training/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_DATASETS_TRUST_REMOTE_CODE=true
 export HF_HOME="/path/to/cache"

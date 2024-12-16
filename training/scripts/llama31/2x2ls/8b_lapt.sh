@@ -11,7 +11,7 @@ export HF_HUB_CACHE="/path/to/cache"
 export HF_DATASETS_CACHE="/path/to/cache"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-cd /path/to/cva-merge/training/src
+cd /path/to/chat-cve/training/src
 model_abbrev="Llama-3.1-8B"
 lang_code="$1"
 dataset_dir="/path/to/datasets/Llama-3.1-8B-${lang_code}-lapt-madlad/"

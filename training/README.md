@@ -20,7 +20,7 @@ NOTE: The scripts are provided as examples. You may need to modify the scripts t
 #SBATCH --time=96:00:00
 
 # Configs
-cd /path/to/cva-merge/training/src
+cd /path/to/chat-cve/training/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_DATASETS_TRUST_REMOTE_CODE=true
 export HF_HOME="/path/to/cache"
@@ -74,7 +74,7 @@ python main_2x2ls.py \
 #SBATCH --time=96:00:00
 
 # Configs
-cd /path/to/cva-merge/training/src
+cd /path/to/chat-cve/training/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_DATASETS_TRUST_REMOTE_CODE=true
 export HF_HOME="/path/to/cache"
@@ -129,7 +129,7 @@ python main_2x2ls.py \
 #SBATCH --time=96:00:00
 
 # Configs
-cd /path/to/cva-merge/training/src
+cd /path/to/chat-cve/training/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_DATASETS_TRUST_REMOTE_CODE=true
 export HF_HOME="/path/to/cache"
@@ -184,7 +184,7 @@ python main_2x2ls.py \
 
 
 # Configs
-cd /path/to/cva-merge/training/src
+cd /path/to/chat-cve/training/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_DATASETS_TRUST_REMOTE_CODE=true
 export HF_HOME="/path/to/cache"

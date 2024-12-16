@@ -15,7 +15,7 @@ You can initialize the vocabulary expanded model using the `Qwen/Qwen2.5-7B-Inst
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/instantiation/src
+cd /path/to/chat-cve/instantiation/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -60,7 +60,7 @@ You can initialize the vocabulary expanded model using the `Qwen/Qwen2.5-7B` mod
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/instantiation/src
+cd /path/to/chat-cve/instantiation/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -107,7 +107,7 @@ You can initialize the vocabulary expanded model using the `meta-llama/Llama-3.1
 
 
 # Configs
-cd /path/to/cva-merge/instantiation/src
+cd /path/to/chat-cve/instantiation/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -154,7 +154,7 @@ You can initialize the vocabulary expanded model using the `meta-llama/Llama-3.1
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/instantiation/src
+cd /path/to/chat-cve/instantiation/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -200,7 +200,7 @@ You can initialize the vocabulary expanded model using the `google/gemma-2-9b-it
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/instantiation/src
+cd /path/to/chat-cve/instantiation/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"
@@ -247,7 +247,7 @@ You can initialize the vocabulary expanded model using the `google/gemma-2-9b` m
 
 
 # Configs
-cd /path/to/cva-merge/instantiation/src
+cd /path/to/chat-cve/instantiation/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"

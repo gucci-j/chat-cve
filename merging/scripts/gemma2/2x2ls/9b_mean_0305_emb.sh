@@ -5,7 +5,7 @@
 
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="gemma-2-9b"
 lang_codes=(

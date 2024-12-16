@@ -17,7 +17,7 @@ lm-eval --model hf \
     --model_args=pretrained=${model_name},dtype=bfloat16 \
     --tasks=leaderboard_ifeval \
     --batch_size=1 \
-    --output_path="/path/to/cva-merge/evaluation/logs2/merged/${model_abbrev}/" \
+    --output_path="/path/to/chat-cve/evaluation/logs2/merged/${model_abbrev}/" \
     --num_fewshot 0 \
     --apply_chat_template \
     --fewshot_as_multiturn
@@ -28,7 +28,7 @@ lm-eval --model hf \
     --model_args=pretrained=${model_name},dtype=bfloat16 \
     --tasks=leaderboard_ifeval \
     --batch_size=1 \
-    --output_path="/path/to/cva-merge/evaluation/logs2/merged/${model_abbrev}/" \
+    --output_path="/path/to/chat-cve/evaluation/logs2/merged/${model_abbrev}/" \
     --num_fewshot 0 \
     --apply_chat_template \
     --fewshot_as_multiturn

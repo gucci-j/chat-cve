@@ -4,7 +4,7 @@
 #SBATCH --time=96:00:00
 
 # Configs
-cd /path/to/cva-merge/preprocessing/src/training/
+cd /path/to/chat-cve/preprocessing/src/training/
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"

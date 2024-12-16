@@ -4,7 +4,7 @@
 #SBATCH --time=24:00:00
 
 # Configs
-cd /path/to/cva-merge/instantiation/src
+cd /path/to/chat-cve/instantiation/src
 export TRANSFORMERS_VERBOSITY=debug
 export HF_HOME="/path/to/cache"
 export HF_HUB_CACHE="/path/to/cache"

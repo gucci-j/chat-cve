@@ -21,7 +21,7 @@ NOTE: The scripts are provided as examples. You may need to modify the scripts t
 #SBATCH --time=24:00:00
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="Qwen2.5-7B-Instruct"
 lang_codes=(
@@ -63,7 +63,7 @@ done
 #SBATCH --time=24:00:00
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="Qwen2.5-7B-Instruct"
 lang_codes=(
@@ -107,7 +107,7 @@ done
 
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="Qwen2.5-7B-Instruct"
 lang_codes=(
@@ -153,7 +153,7 @@ done
 
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="Qwen2.5-7B"
 lang_codes=(
@@ -197,7 +197,7 @@ done
 
 
 # Run the script
-cd /path/to/cva-merge/merging/src/
+cd /path/to/chat-cve/merging/src/
 
 model_abbrev="Qwen2.5-7B"
 lang_codes=(

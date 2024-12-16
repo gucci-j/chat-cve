@@ -12,7 +12,7 @@ export HF_HUB_CACHE="/path/to/cache"
 export HF_DATASETS_CACHE="/path/to/cache"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-cd /path/to/cva-merge/training/src
+cd /path/to/chat-cve/training/src
 model_abbrev="gemma-2-9b"
 lang_code="$1"
 dataset_dir="/path/to/datasets/gemma-2-9b-it-${lang_code}-madlad/"
