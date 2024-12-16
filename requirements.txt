@@ -1,0 +1,16 @@
+transformers
+peft 
+datasets 
+evaluate 
+bitsandbytes 
+scikit-learn 
+sentencepiece 
+huggingface-hub 
+tqdm 
+pyarrow 
+protobuf 
+tiktoken
+lm-evaluation-harness
+langdetect 
+immutabledict 
+nltk
