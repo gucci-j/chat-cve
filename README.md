@@ -59,10 +59,14 @@ The models will available soon on the Hugging Face model hub.
 ## Citation
 If you use this code or the models in your research, please cite the following paper:
 ```
-@misc{yamaguchi-2024-vocabulary-expansion-chat,
+@misc{yamaguchi2024vocabularyexpansionchatmodels,
       title={Vocabulary Expansion of Chat Models with Unlabeled Target Language Data}, 
       author={Atsuki Yamaguchi and Terufumi Morishita and Aline Villavicencio and Nikolaos Aletras},
       year={2024},
+      eprint={2412.11704},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.11704}, 
 }
 ```
 
